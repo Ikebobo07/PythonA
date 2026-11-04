@@ -102,7 +102,7 @@ def main():
     start_node = input("Enter a start node (S, A, B, C, D, G):\n").strip().upper()
     goal_node = input("Enter a goal node (S, A, B, C, D, G):\n").strip().upper()
     
-    print(f"The Depth First Search Traversal (starting from node {start_node}) is")7]
+    print(f"The Depth First Search Traversal (starting from node {start_node}) is")
     print(dfs_traversal(graph, start_node))
     
     print(f"The Breadth First Search Traversal (starting from node {start_node}) is")
